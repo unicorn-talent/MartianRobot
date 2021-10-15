@@ -1,8 +1,8 @@
 var Grid = require("./grid.js");
 var Robot = require("./robot.js");
 
-var instructions = "5 3\n1 1 E\nRFRFRFRFRF\n\n3 2 N\nFRRFLLFFRRFLL\n\n0 3 W\nLLFFFLFLFL";
 
+var instructions = "5 3\n1 1 E\nRFRFRFRF\n\n3 2 N\nFRRFLLFFRRFLL\n\n0 3 W\nLLFFFLFLFL";
 var mars = new Mars();
 console.log(mars.send(instructions));
 
